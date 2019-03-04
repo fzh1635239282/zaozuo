@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "serve": "vue-cli-service serve --open",
+    "build": "vue-cli-service build --open"
   },
   "dependencies": {
-    "vue": "^2.6.6"
+    "axios": "^0.18.0",
+    "vue": "^2.6.6",
+    "vue-router": "^3.0.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.0",
